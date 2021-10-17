@@ -1,0 +1,157 @@
+.social {
+  background-color: #F8EFEF;
+  height: 110px;
+  display: flex;
+  align-items: center;
+}
+
+.tabs {
+  height: 450px;
+  display: flex;
+  margin-bottom: 100px;
+}
+
+.social_container_text h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #333333;
+  padding-bottom: 1em;
+}
+
+.social_container_text p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #86878B;
+}
+
+.tabs__container_item1 {
+  width: 112px;
+  height: 110px;
+  background-color: #EC7979;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center; 
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding-top: 45px;
+}
+
+.tabs__container_item2 {
+  width: 112px;
+  height: 110px;
+  background-color: #333333;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center; 
+  text-transform: uppercase;
+  color: #FFFFFF;
+  padding-top: 45px;
+}
+
+.tabs__container_text_button h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
+  color: #000000;
+  text-transform: uppercase;
+  margin-bottom: 60px;
+}
+
+.tabs__container_text_button p {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  color: #86878B;
+  text-transform: uppercase;
+  margin-bottom: 1em;
+}
+
+.tabs__container_button {
+  width: 135px;
+  height: 42px;
+  background-color: #EC7979;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: #FFFFFF;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.social__container_container {
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
+.social_container_media ul {
+  display: flex;
+  flex-direction: row;
+}
+
+.social_container_media {
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.media__social__item img {
+    height: 40px;
+    padding-right: 50px; 
+}
+
+.tabs__container_container {
+  height: 450px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 100px;
+  padding-top: 20px;
+}
+
+.tabs__container_tabs li {
+  margin-bottom: 10px;
+  border-radius: 7%;
+}
+
+.tabs__container_text_button {
+  display: flex;
+  flex-direction: column;
+  align-self: stretch;
+  padding-left: 30px;
+  padding-right: 10px;
+  flex-basis: 55%;
+}
+
+.tabs__container_image img {
+  height: 253px; 
+  width: 320px;
+}
+
+.tabs__container_button {
+  margin-top: 100px;
+}
+
+  
+
+
+
+
+
+
+
+
+
