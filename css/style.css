@@ -789,7 +789,7 @@ main {
 }
 .tabs__container_item2:hover {
   background-color: #535252;
-  box-shadow: 2px 2px 5px #535252;
+  box-shadow: 2px 2px 5px #0808e4;
 }
 .media__social__item:hover {
   filter: brightness(70%);
