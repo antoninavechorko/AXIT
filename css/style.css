@@ -583,7 +583,7 @@ main {
   margin-bottom: 67px;
   text-align: center;
 }
-/*---------------------------------------------------------------------------------------------------------*/
+
 .customers__container {
   display: flex;
   flex-direction: row;
@@ -729,6 +729,7 @@ main {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
   width: 100%;
 }
 
@@ -745,6 +746,8 @@ main {
 
 .media__social__item img {
   height: 40px;
+  height: 40px;
+  margin-left: 30px;
 }
 
 .tabs__container {
@@ -774,9 +777,45 @@ main {
 }
 
 .tabs__container_button {
-  margin-top: 90px;
+  margin-top: 80px;
 }
+.tabs__container_button:hover {
+  background-color: #e44747;
+  box-shadow: 2px 2px 5px #e44747;
+}
+.tabs__container_item1:hover {
+  background-color: #e44747;
+  box-shadow: 2px 2px 5px #e44747;
+}
+.tabs__container_item2:hover {
+  background-color: #535252;
+  box-shadow: 2px 2px 5px #535252;
+}
+.media__social__item:hover {
+  filter: brightness(70%);
+  transform: scale(1.10);
+ }
 
+@media (max-width: 1050px) {
+  .social__container {
+    justify-content: center;
+  }
+  .social_container_text h2 {
+    text-align: center;
+  }
+  .social_container_media {
+    justify-content: space-between;
+  }
+  .media__social__item img {
+    margin: 0 0 0 10px;
+  }
+}
+@media (max-width: 550px) {
+  
+  .media__social__item img {
+    margin: 0 0 0 0px;
+  }
+}
 /* Feedback */
 .contact_us {
   display: flex;
@@ -818,7 +857,7 @@ main {
 }
 
 .form_grou input {
-  width: 470px;
+  width: 100%;
   padding: 0 0 10px 0;
   border: none;
   border-bottom: 1px solid #bdbdbd;
@@ -832,9 +871,11 @@ main {
 .form_grou input:hover {
   border: 1px solid #aaa;
 }
-
+.form_textarea {
+  flex: 0 1 470px;
+}
 .form_textarea textarea {
-  width: 470px;
+  width: 100%;
   height: 190px;
   color: #bdbdbd;
   border: none;
@@ -870,8 +911,13 @@ main {
   flex-wrap: wrap;
 }
 .form_container {
+  flex: 0 1 470px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   margin-right: 20px;
+}
+.feedback_btn:hover {
+  background-color: #e44747;
+  box-shadow: 2px 2px 5px #ffffff;
 }
